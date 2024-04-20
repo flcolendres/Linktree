@@ -6,7 +6,7 @@ export default function Home() {
     <main class="flex h-screen bg-[#ADD8E6]">
       <div></div>
       <div class="container mx-auto px-40">
-          <img class="mx-auto mt-48 object-cover h-36 w-36 rounded-full" src="/assets/cinnamoroll.jpg"  />
+          <Image width={100} height={100} class="mx-auto mt-48 object-cover h-36 w-36 rounded-full" src="/assets/cinnamoroll.jpg" alt="Profile"  />
           <p class="flex mx-auto mt-1 justify-center font-sans text-2xl text-river-blue">cinnamoroll</p>
           <Link class="flex mx-auto justify-center mt-4" href="https://www.cktravels.com/themed-7-elevens-taipei-taiwan/">
             <button class="w-[48rem] rounded-lg p-3 bg-[#FFFFFF] transition: ease-in-out delay-10 outline outline-[#E8A1AE] hover:bg-[#2985B9] hover:text-white duration-100">Pompurin and Cinnamoroll Changhong 7-Eleven in Taipei, Taiwan</button>
